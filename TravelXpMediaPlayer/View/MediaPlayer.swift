@@ -89,7 +89,7 @@ struct MediaPlayer: View {
             .navigationBarHidden(true) // Hide default nav bar
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    // viewModel.start()
+                     viewModel.start()
                 }
             }
         }
